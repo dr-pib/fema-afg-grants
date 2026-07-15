@@ -1,0 +1,48 @@
+# FEMA firefighter grant documentation — direct document URLs.
+# Grouped by program. Fetch from a normal network (fema.gov blocks datacenter IPs).
+
+# ---- AFG (Assistance to Firefighters Grants) ----
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-afg-nofo_05182026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-afg-factsheet_05182026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-afg-key-changes_05182026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-afg-narrative-development-guide_05182026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy2024_afg_nofo.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy21-afg-nofo.pdf
+https://www.fema.gov/sites/default/files/2020-07/fy_2017_afg_NOFO_010318.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd-fy23-afg-program-narrative-development-toolkit.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd-fy23-afg-application-checklist.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd-fy23-afg-self-evaluation-sheet-operations-and-safety.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd-fy23-afg-cost-share-calculator.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy22-afg-cost-share-calculator-unrounded.pdf
+https://www.fema.gov/sites/default/files/documents/fema_afg-cost-share-calculator_0.pdf
+
+# ---- SAFER (Staffing for Adequate Fire and Emergency Response) ----
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-safer-nofo_05152026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd_safer-nofo_fy24.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy23-safer-nofo.pdf
+https://www.fema.gov/sites/default/files/documents/fema_FY-2020_SAFER-NOFO.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd_safer-fact-sheet_fy24.pdf
+https://www.fema.gov/pdf/government/grant/SAFER.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd_safer-faqs_fy24.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd-fy-2023-safer-faqs.pdf
+https://www.fema.gov/sites/default/files/documents/fy_2025_safer-application_checklist.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd_safer-application-checklist_fy24.pdf
+https://www.fema.gov/sites/default/files/documents/fema_afg-safer-2022-application-checklist.pdf
+https://www.fema.gov/sites/default/files/documents/fema_safer-rr-programmatic-performance-report-form.pdf
+
+# ---- FP&S (Fire Prevention and Safety) ----
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-fps-factsheet.05182026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd-fy-2023-fps-fact-sheet.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy22-afg-fps-fact-sheet.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd_fps-nofo_fy24.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy22-afg-fps-nofo.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy21-afg-fps-nofo.pdf
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-fps-activity-faq_05182026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd-fy-2023-fps-faqs.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy21-afg-fps-activity-faqs.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy21-afg-fps-rd-activity-faqs.pdf
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-fps-reasearch-development-program-guide_05292026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_rsl_gpd_fy25-fps-activity-application_05182026.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy22-afg-fps-activity-application-checklist.pdf
+https://www.fema.gov/sites/default/files/documents/fema_fy_2022_fps_program_cost_share_calculator.pdf
+https://www.fema.gov/sites/default/files/documents/fema_gpd-fy-2023-fps-cost-share-calculator.pdf
