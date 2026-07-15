@@ -137,24 +137,123 @@ a {
   font-weight: 600;
 }
 
-/* Filter row: state picker + quick chips. */
-.filters {
+/* Filter bar: a wrap of labelled fields + actions. */
+.filterbar {
   display: flex;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 10px;
-  margin-bottom: 16px;
+  align-items: flex-end;
+  gap: 10px 12px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 14px 16px;
+  margin-bottom: 20px;
 }
 
-.filter-form {
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 130px;
+}
+
+.field-wide {
+  flex: 1 1 200px;
+}
+
+.field label {
+  color: var(--muted);
+  font-size: 11.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.input {
+  background: var(--surface-2);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 7px 10px;
+  font-size: 13px;
+  width: 100%;
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  border-color: var(--accent);
+}
+
+.checkline {
   display: flex;
   align-items: center;
   gap: 8px;
-}
-
-.filter-label {
   color: var(--muted);
   font-size: 13px;
+  flex: 1 1 100%;
+  margin-top: 2px;
+}
+
+.checkline input {
+  width: 15px;
+  height: 15px;
+  accent-color: var(--accent);
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex: 1 1 100%;
+  margin-top: 4px;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  filter: brightness(1.08);
+  border-color: var(--accent);
+}
+
+.metric-sm {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+/* Program type badge in the table. */
+.badge {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  background: var(--surface-2);
+  white-space: nowrap;
+}
+
+.badge-AFG {
+  color: #7ee2a8;
+  border-color: rgba(63, 185, 80, 0.4);
+  background: rgba(63, 185, 80, 0.1);
+}
+
+.badge-SAFER {
+  color: #8bc2ff;
+  border-color: rgba(88, 166, 255, 0.4);
+  background: rgba(88, 166, 255, 0.1);
+}
+
+.badge-FPS {
+  color: #e6c07a;
+  border-color: rgba(210, 153, 34, 0.4);
+  background: rgba(210, 153, 34, 0.12);
 }
 
 .select {
