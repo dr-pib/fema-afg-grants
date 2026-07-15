@@ -32,15 +32,17 @@ This is the eligibility taxonomy from FEMA's own program rules. It does NOT tell
 
 FEMA's award **data** (the OpenFEMA feed this app uses, and USASpending) records only *who got how much, which program, where, and when* — never what was purchased. A dry-run search across 20 Arkansas rural/volunteer awards found a citable purpose for only **1 of 20** (the largest, a pumper/tanker); Arkansas's delegation rarely issues per-award press releases, and department detail lives on login-walled Facebook. So the *program documentation here* is the reliable, structured "what's fundable" source; per-award purpose is not systematically available.
 
-## Getting the actual PDFs
+## The actual PDFs
 
-The build environment can't download `fema.gov` files (Akamai blocks its IP), so this corpus captures the **content and links**, not the binaries. To pull the real PDFs onto your own machine:
+**`pdfs/`** holds 23 downloaded documents — see [`pdfs/MANIFEST.md`](pdfs/MANIFEST.md). This includes the comprehensive **NOFO rulebooks for all three programs** (FY2023–FY2025), plus fact sheets, checklists, and IAFF/NVFC guidance. `fema.gov` IP-blocks this environment (and the Internet Archive's content host is blocked by network policy), so these were pulled from reachable mirrors: grants.gov attachment host, Senate/House offices, govdelivery, IAFF, NVFC, and a state firefighters' association. Every file was verified to be a real PDF.
+
+A handful of FEMA-only summary docs (some FY2025 fact sheets/FAQs, the AFG self-evaluation sheets) have **no reachable mirror** and aren't in `pdfs/` — they're listed in the manifest and their URLs are in `urls.txt`. To grab those from a normal network:
 
 ```bash
 cd docs/program-corpus
-bash download.sh        # downloads all listed PDFs into ./pdfs/
+bash download.sh        # tries urls.txt; works from any non-blocked network
 ```
 
-`urls.txt` is the plain list of every document URL if you'd rather grab them another way. Sourcing/verification caveats are noted inline in each program file (some figures came from FEMA search snippets or third-party grant sites because the FEMA PDFs couldn't be opened here — confirm against the primary PDF before relying on a specific number).
+Sourcing/verification caveats are noted inline in each program file (some figures came from FEMA search snippets or third-party grant sites because the FEMA PDFs couldn't be opened from here — confirm against the primary NOFO in `pdfs/` before relying on a specific number).
 
 *Compiled 2026-07-15.*
